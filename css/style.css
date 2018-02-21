@@ -35,12 +35,12 @@ body {
 }
 
 a {
-    color: #e38cb7;
+    color: #25bce2;
 }
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #263986fa;
 }
 
 h1 {
@@ -619,13 +619,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #25bce2;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #263986fa;
 }
 
 #map {
