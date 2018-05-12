@@ -225,10 +225,13 @@ p.lead {
     }
 
     .navbar-nav .nav-item {
+        width: auto;
         text-align: center;
     }
 }
-
+.nav-item-about {
+ width: 126px;
+}
 /* HERO
 ----------------------*/
 
