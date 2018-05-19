@@ -217,6 +217,19 @@ p.lead {
         height: 1px;
         position: absolute;
     }
+
+    .phone-navbar-nav {
+        width: auto;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .phone-navbar-nav li {
+        float: left;
+        list-style: none;
+        margin-right: 1rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -228,10 +241,24 @@ p.lead {
         width: auto;
         text-align: center;
     }
+
+    .nav-phone-number {
+        display: none;
+    }
+
+    .schedule-row {
+        text-align: center;
+    }
 }
+
+.phone-navbar-nav {
+    padding-top: 30px;
+}
+
 .nav-item-about {
- width: 126px;
+    width: 126px;
 }
+
 /* HERO
 ----------------------*/
 
@@ -597,7 +624,6 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #263986fa;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -643,4 +669,16 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+
+a.lifecell {
+    width: 200px;
+}
+
+a.kyivstar {
+    width: 250px;
+}
+
+a.vodafone {
+    width: 200px;
 }
